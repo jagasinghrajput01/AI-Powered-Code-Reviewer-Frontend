@@ -36,7 +36,7 @@ function App() {
       // await new Promise(r => setTimeout(r, 300));
 
       const response = await axios.post(
-        "http://localhost:3000/ai/get-review",
+        "https://ai-powered-code-reviewer-backend-an3p.onrender.com/ai/get-review",
         { code },
         { timeout: 20000 } // give it a reasonable timeout
       );
